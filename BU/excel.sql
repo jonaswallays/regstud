@@ -1,0 +1,2 @@
+SELECT distinct fac as Faculteit, opl as Opleiding, keuze,  voornaam, naam, straat, pc as Postcode, gemeente, email as `E-mail` FROM seckeuze order by fac, opl, keuze, naam ASC
+SELECT distinct fac as Faculteit, opl as Opleiding, keuze,  voornaam, naam, straat, pc as Postcode, gemeente, email as `E-mail` FROM seckeuze where fac = "Bedrijf en organisatie" order by fac, opl, keuze, naam ASC

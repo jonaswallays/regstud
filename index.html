@@ -1,0 +1,430 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+                                            
+                                           
+		<link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
+                                            <link rel="stylesheet" href="css/theme/Hogent.min.css" />
+                                            <link rel="stylesheet" href="css/myStyle.css" />
+                                            
+		<script src="scripts/jquery-1.8.3.js"></script>
+                                            
+		<script src="scripts/jquery.mobile-1.2.0.min.js"></script>
+                                            <script src="scripts/myScript.js"></script>
+                                            <title>HoGent</title>
+	</head>
+
+        <body>
+            
+            
+            
+               <div id="startPage" data-role="page" data-theme="a" >                                                   
+                        <div class="ui-grid-a my-breakpoint">
+                            
+                                <div class="ui-block-a">
+                                    <div class="blokStart" id="FMW" onclick="location.assign('#pageFMW');">
+                                    <!--div class="blokTekst">HoGent<div class="fac">MENS<br> EN<br> WELZIJN</div></div-->
+                                    <div class="blokTekst"><img class="imgStart" src="images/FMW/FMW-NL.png" /></div> 
+                                    </div>      
+                                </div>
+                                <div class="ui-block-b">
+                                    <div class="blokStart" id="FNT" onclick="location.assign('#pageFNT');">
+                                    <div class="blokTekst"><img class="imgStart" src="images/FNT/FNT-NL.png" /></div> 
+                                    </div>      
+                                </div>
+                        </div>
+                        <div class="ui-grid-a my-breakpoint">
+                            <div class="ui-block-a">
+                                <div class="blokStart" id="FBO" onclick="location.assign('#pageFBO');">
+                                    <div class="blokTekst"><img class="imgStart" src="images/FBO/FBO-NL.png" /></div> 
+                                </div>                                
+                            </div>
+                                
+                                <div class="ui-block-b">
+                                    <div class="blokStart" id="SOA" onclick="location.assign('#pageSOA');">
+                                        <div class="blokTekst"><img class="imgStart" src="images/SCH/SCH-NL.png" /></div> 
+                                    </div>                                
+                                </div>
+                        </div>
+            </div>
+            
+            
+            
+            
+            <div id="pageFMW" data-role="page" data-theme="a" >
+                
+                <div class="ui-grid-c ui-responsive" style="padding-bottom: 20px;">
+                    <div class="ui-block-a">
+                        <div class="ui-body ui-body-d blokS" ><div class="FMWS blokTekstS NA"><img class="imgMenu" src="images/FMW/FMW-NL.png" /></div> </div>
+                    </div>
+                      <div class="ui-block-b">
+                          <div class="ui-body ui-body-d blokS" ><div class="FNTS blokTekstS" onclick="location.assign('#pageFNT');"><img class="imgMenu" src="images/FNT/FNT-NL.png" /></div> </div>                          
+                      </div>
+	<div class="ui-block-c">
+                        <div class="ui-body ui-body-d blokS" ><div class="FBOS blokTekstS" onclick="location.assign('#pageFBO');"><img class="imgMenu" src="images/FBO/FBO-NL.png" /></div> </div>            
+                     </div>
+	<div class="ui-block-d">
+                        <div class="ui-body ui-body-d blokS" ><div class=" SOAS blokTekstS" onclick="location.assign('#pageSOA');"><img class="imgMenu" src="images/SCH/SCH-NL.png" /></div> </div>           
+                     </div>
+                </div>
+                <div class="ui-grid-b ui-responsive">
+                    <div class="ui-block-a">
+                        <div class="ui-body ui-body-d blokS" >
+                                <p class="titelAf">Sociaal-agogisch werk</p>
+                               <input type="checkbox" name="OP" id="OP" data-name="orthopedagogie" data-mini="true" />
+                               <label for="OP">orthopedagogie</label>
+                               <input type="checkbox" name="SW" id="SW" data-name="sociaal werk" data-mini="true" />
+                                <label for="SW">sociaal werk</label>                                                                                                                                                                          
+                        </div>
+                    </div>
+                      <div class="ui-block-b">
+                          <div class="ui-body ui-body-d blokS" >
+                                <p class="titelAf">Onderwijs</p>
+                               <input type="checkbox" name="KO" id="KO" data-name="kleuteronderwijs" data-mini="true" />
+                               <label for="KO">kleuteronderwijs</label>
+                               <input type="checkbox" name="LO" id="LO" data-name="lager onderwijs" data-mini="true" />
+                                <label for="LO">lager onderwijs</label>
+                                <input type="checkbox" name="SO" id="SO" data-name="secundair onderwijs" data-mini="true" />
+                                <label for="SO">secundair onderwijs</label>  
+                        </div>
+                      </div>
+	<div class="ui-block-c">
+                        <div class="ui-body ui-body-d blokS" >
+                                <p class="titelAf">Gezondheidszorg</p>
+                               <input type="checkbox" name="BML" id="BML" data-name="biomedische laboratoriumtechnologie" data-mini="true" />
+                               <label for="BML">biomedische laboratorium- technologie</label>
+                               <input type="checkbox" name="ET" id="ET" data-name="ergotherapie" data-mini="true" />
+                                <label for="ET">ergotherapie</label>
+                                <input type="checkbox" name="LA" id="LA" data-name="logopedie en audiologie" data-mini="true" />
+                                <label for="LA">logopedie en audiologie</label>   
+                                <input type="checkbox" name="VPL" id="VPL" data-name="verpleegkunde" data-mini="true" />
+                                <label for="VPL">verpleegkunde</label>   
+                                <input type="checkbox" name="VD" id="VD" data-name="voedings- en dieetkunde" data-mini="true" />
+                                <label for="VD">voedings- en dieetkunde</label>   
+                        </div>
+                     </div>	
+                </div>
+                
+                <div data-role="footer" data-position="fixed" >
+                    <div class="footer">                        
+                        <img src="images/HS.png" onclick="location.assign('#startPage');"/>
+                        <img src="images/write.png" onclick="location.assign('#regPage');"/>
+                        <img src="images/refresh.png" onclick="$('#pageFMW :checkbox').attr('checked',false).checkboxradio('refresh');" />
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            <div id="pageFNT" data-role="page" data-theme="a" >
+                <div class="ui-grid-c ui-responsive " style="padding-bottom: 20px;">
+                    <div class="ui-block-a">
+                        <div class="ui-body ui-body-d blokS" ><div class="FMWS blokTekstS " onclick="location.assign('#pageFMW');"><img class="imgMenu" src="images/FMW/FMW-NL.png" /></div> </div>
+                    </div>
+                      <div class="ui-block-b">
+                          <div class="ui-body ui-body-d blokS" ><div class="FNTS blokTekstS NA" ><img class="imgMenu" src="images/FNT/FNT-NL.png" /></div> </div>                          
+                      </div>
+	<div class="ui-block-c">
+                        <div class="ui-body ui-body-d blokS" ><div class="FBOS blokTekstS" onclick="location.assign('#pageFBO');"><img class="imgMenu" src="images/FBO/FBO-NL.png" /></div> </div>            
+                     </div>
+	<div class="ui-block-d">
+                        <div class="ui-body ui-body-d blokS" ><div class="SOAS blokTekstS" onclick="location.assign('#pageSOA');"><img class="imgMenu" src="images/SCH/SCH-NL.png" /></div> </div>           
+                     </div>
+                </div>
+                  <div class="ui-grid-b ui-responsive">
+                    <div class="ui-block-a">
+                        <div class="ui-body ui-body-d blokS" >
+                                <p class="titelAf">&nbsp;</p>
+                               <input type="checkbox" name="ABT" id="ABT" data-name="agro- en biotechnologie" data-mini="true" />
+                               <label for="ABT">agro- en biotechnologie</label>
+                               <input type="checkbox" name="CH" id="CH" data-name="chemie" data-mini="true" />
+                                <label for="CH">chemie</label>
+                                <input type="checkbox" name="EM" id="EM" data-name="elektromechanica" data-mini="true" />
+                                <label for="EM">elektromechanica</label>  
+                        </div>
+                    </div>
+                      <div class="ui-block-b">
+                          <div class="ui-body ui-body-d blokS" >
+                                <p class="titelAf">&nbsp;</p>
+                               <input type="checkbox" name="HT" id="HT" data-name="houttechnologie" data-mini="true" />
+                               <label for="HT">houttechnologie</label>
+                               <input type="checkbox" name="MT" id="MT" data-name="modetechnologie" data-mini="true" />
+                                <label for="MT">modetechnologie</label>
+                                <input type="checkbox" name="TT" id="TT" data-name="textieltechnologie" data-mini="true" />
+                                <label for="TT">textieltechnologie</label>  
+                        </div>
+                      </div>
+	<div class="ui-block-c">
+                        <div class="ui-body ui-body-d blokS" >
+                                <p class="titelAf">&nbsp</p>
+                               <input type="checkbox" name="VAS" id="VAS" data-name="vastgoed" data-mini="true" />
+                               <label for="VAS">vastgoed</label>
+                               
+                        </div>
+                     </div>	
+                </div>
+                <div data-role="footer" data-position="fixed" >
+                    <div class="footer">
+                        <img src="images/HS.png" onclick="location.assign('#startPage');"/>
+                        <img src="images/write.png" onclick="location.assign('#regPage');"/>
+                        <img src="images/refresh.png" onclick="$('#pageFNT :checkbox').attr('checked',false).checkboxradio('refresh');" />
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div id="pageFBO" data-role="page" data-theme="a" >
+                <div class="ui-grid-c ui-responsive" style="padding-bottom: 20px;">
+                    <div class="ui-block-a">
+                        <div class="ui-body ui-body-d blokS" ><div class="FMWS blokTekstS " onclick="location.assign('#pageFMW');"><img class="imgMenu" src="images/FMW/FMW-NL.png" /></div> </div>
+                    </div>
+                      <div class="ui-block-b">
+                          <div class="ui-body ui-body-d blokS" ><div class="FNTS blokTekstS " onclick="location.assign('#pageFNT');"><img class="imgMenu" src="images/FNT/FNT-NL.png" /></div> </div>                          
+                      </div>
+	<div class="ui-block-c">
+                        <div class="ui-body ui-body-d blokS" ><div class="FBOS blokTekstS NA" ><img class="imgMenu" src="images/FBO/FBO-NL.png" /></div> </div>            
+                     </div>
+	<div class="ui-block-d">
+                        <div class="ui-body ui-body-d blokS" ><div class="SOAS blokTekstS" onclick="location.assign('#pageSOA');"><img class="imgMenu" src="images/SCH/SCH-NL.png" /></div> </div>           
+                     </div>
+                </div>
+                
+                <div class="ui-grid-b ui-responsive">
+                    <div class="ui-block-a">
+                        <div class="ui-body ui-body-d blokS" >                            
+                                <input type="checkbox" name="BM" id="BM" data-name="bedrijfsmanagement"  />
+                                <label for="BM">bedrijfsmanagement</label>                                
+                               <div id="BMkeuzes" style="padding: 0px 0px 0px 40px;" > 			
+		<input type="checkbox" name="AF" id="AF" data-name="accountancy-fiscaliteit" data-mini="true" />
+		<label for="AF">accountancy-fiscaliteit</label>
+		<input type="checkbox" name="FV" id="FV" data-name="financie- en verzekeringswezen"  data-mini="true" />
+		<label for="FV">financie- en verzekeringswezen</label>
+                                            <input type="checkbox" name="LM" id="LM" data-name="logistiek management"  data-mini="true" />
+		<label for="LM">logistiek management</label>
+                                            <input type="checkbox" name="KM" id="KM" data-name="KMO-management"  data-mini="true" />
+                                            <label for="KM">KMO-management</label>
+                                            <input type="checkbox" name="MK" id="MK" data-name="marketing"  data-mini="true" />
+		<label for="MK">marketing</label>
+                                            <input type="checkbox" name="MM" id="MM" data-name="milieumanagement"  data-mini="true" />
+		<label for="MM">milieumanagement</label>
+                                            <input type="checkbox" name="RE" id="RE" data-name="rechtspraktijk"  data-mini="true" />
+		<label for="RE">rechtspraktijk</label>                                            
+                               </div>                                                                                                                                                              
+                        </div>
+                    </div>
+                      <div class="ui-block-b">
+                          <div class="ui-body ui-body-d blokS" >                            
+                                <input type="checkbox" name="OM" id="OM" data-name="office management"  />
+                                <label for="OM">office management</label>                                
+                               <div id="OMkeuzes" style="padding: 0px 0px 0px 40px;" > 			
+		<input type="checkbox" name="BVT" id="BVT" data-name="bedrijfsvertaler-tolk"  data-mini="true" />
+		<label for="BVT">bedrijfsvertaler-tolk</label>
+		<input type="checkbox" name="MA" id="MA" data-name="management assistant"  data-mini="true" />
+		<label for="MA">management assistant</label>
+                                            <input type="checkbox" name="MMA" id="MMA" data-name="medical management assistant"  data-mini="true" />
+		<label for="MMA">medical management assistant</label>                                              
+                               </div>                                                                                                                                                              
+                        </div>
+                      </div>
+	<div class="ui-block-c">
+                        <div class="ui-body ui-body-d blokS" >
+                                 <input type="checkbox" name="TIN" id="TIN" data-name="toegepaste informatica"  />
+                                <label for="TIN">toegepaste informatica</label>
+                                <input type="checkbox" name="REM" id="REM" data-name="retailmanagement"  />
+                                <label for="REM">retailmanagement</label>
+                        </div>
+                     </div>	
+                </div>
+                <div data-role="footer" data-position="fixed" >
+                    <div class="footer">
+                        <img src="images/HS.png" onclick="location.assign('#startPage');"/>
+                        <img src="images/write.png" onclick="location.assign('#regPage');"/>
+                        <img src="images/refresh.png" onclick="$('#pageFBO :checkbox').attr('checked',false).checkboxradio('refresh');" />
+                    </div>
+                </div>
+            </div>
+        
+        
+        <div id="pageSOA" data-role="page" data-theme="a" >
+                <div class="ui-grid-c ui-responsive" style="padding-bottom: 20px;">
+                    <div class="ui-block-a">
+                        <div class="ui-body ui-body-d blokS" ><div class="FMWS blokTekstS " onclick="location.assign('#pageFMW');"><img class="imgMenu" src="images/FMW/FMW-NL.png" /></div> </div>
+                    </div>
+                      <div class="ui-block-b">
+                          <div class="ui-body ui-body-d blokS" ><div class="FNTS blokTekstS " onclick="location.assign('#pageFNT');"><img class="imgMenu" src="images/FNT/FNT-NL.png" /></div> </div>                          
+                      </div>
+	<div class="ui-block-c">
+                        <div class="ui-body ui-body-d blokS" ><div class="FBOS blokTekstS" onclick="location.assign('#pageFBO');"><img class="imgMenu" src="images/FBO/FBO-NL.png" /></div> </div>            
+                     </div>
+	<div class="ui-block-d">
+                        <div class="ui-body ui-body-d blokS" ><div class="SOAS blokTekstS NA" ><img class="imgMenu" src="images/SCH/SCH-NL.png" /></div> </div>           
+                     </div>
+                </div>
+                <div class="ui-grid-b ui-responsive">
+                    <div class="ui-block-a">
+                        <div class="ui-body ui-body-d blokS" >                            
+                                <input type="checkbox" name="IVG" id="IVG" data-name="interieurvormgeving"  />
+                                <label for="IVG">interieurvormgeving</label>
+                                <input type="checkbox" name="LTA" id="LTA" data-name="landschaps- en tuinarchitectuur"  />
+                                <label for="LTA">landschaps- en tuinarchitectuur</label>
+                                <input type="checkbox" name="AVK" id="AVK" data-name="audiovisuele kunsten"  />
+                                <label for="AVK">audiovisuele kunsten</label>                                
+                               <div id="AVKkeuzes" style="padding: 0px 0px 0px 40px;" > 			
+		<input type="checkbox" name="ANF" id="ANF" data-name="animatiefilm" data-mini="true" />
+		<label for="ANF">animatiefilm</label>
+		<input type="checkbox" name="FIL" id="FIL" data-name="film"  data-mini="true" />
+		<label for="FIL">film</label>
+                                </div>
+                                <input type="checkbox" name="LEK" id="LEK" data-name="specifieke lerarenopleiding in de kunsten"  />
+                                <label for="LEK">specifieke lerarenopleiding in de kunsten</label>          
+                        </div>
+                    </div>
+                      <div class="ui-block-b">
+                          <div class="ui-body ui-body-d blokS" >                            
+                              <input type="checkbox" name="DRA" id="DRA" data-name="drama"  />
+                                <label for="DRA">drama</label>  
+                              <input type="checkbox" name="MUZ" id="MUZ" data-name="muziek"  />
+                                <label for="MUZ">muziek</label>                                
+                               <div id="MUZkeuzes" style="padding: 0px 0px 0px 40px;" > 			
+		<input type="checkbox" name="UMU" id="UMU" data-name="uitvoerende muziek"  data-mini="true" />
+		<label for="UMU">uitvoerende muziek</label>
+                                            <div id="UMUkeuzes" style="padding: 0px 0px 0px 15px;display: none;" >			
+                                                    <input type="checkbox" name="KMU" id="KMU" data-name="klassieke muziek"  data-mini="true" />
+                                                    <label for="KMU" style="font-style: italic">klassieke muziek</label>
+                                                    <input type="checkbox" name="JPM" id="JPM" data-name="jazz/pop"  data-mini="true" />
+                                                    <label for="JPM" style="font-style: italic">jazz/pop</label>
+                                            </div>
+		<input type="checkbox" name="SMU" id="SMU" data-name="scheppende muziek"  data-mini="true" />
+		<label for="SMU">scheppende muziek</label>
+                                             <div id="SMUkeuzes" style="padding: 0px 0px 0px 15px;display: none;" >			
+                                                    <input type="checkbox" name="CMU" id="CMU" data-name="compositie"  data-mini="true" />
+                                                    <label for="CMU" style="font-style: italic">compositie</label>
+                                                    <input type="checkbox" name="MUP" id="MUP" data-name="muziekproductie"  data-mini="true" />
+                                                    <label for="MUP" style="font-style: italic">muziekproductie</label>
+                                            </div>
+                                            <input type="checkbox" name="MTH" id="MTH" data-name="muziektheorie/schriftuur"  data-mini="true" />
+		<label for="MTH">muziektheorie/schriftuur</label>
+                                            <input type="checkbox" name="INS" id="INS" data-name="instrumentenbouw"  data-mini="true" />
+		<label for="INS">instrumentenbouw</label>    
+                               </div>                                                                                                                                                              
+                        </div>
+                      </div>
+	<div class="ui-block-c">
+                        <div class="ui-body ui-body-d blokS" >
+                              <input type="checkbox" name="BEK" id="BEK" data-name="beeldende kunsten"  />
+                                <label for="BEK">beeldende kunsten</label>                                
+                               <div id="BEKkeuzes" style="padding: 0px 0px 0px 40px;" > 			
+		<input type="checkbox" name="VRK" id="VRK" data-name="vrije kunsten"  data-mini="true" />
+		<label for="VRK">vrije kunsten</label>
+                                            <div id="VRKkeuzes" style="padding: 0px 0px 0px 15px;display: none;" >			
+                                                    <input type="checkbox" name="SCK" id="SCK" data-name="schilderkunst" data-mini="true" />
+                                                    <label for="SCK" style="font-style: italic">schilderkunst</label>
+                                                    <input type="checkbox" name="BHK" id="BHK" data-name="beeldhouwkunst" data-mini="true" />
+		        <label for="BHK" style="font-style: italic">beeldhouwkunst</label>
+                                                    <input type="checkbox" name="TEK" id="TEK" data-name="tekenen" data-mini="true" />
+		        <label for="TEK" style="font-style: italic">tekenen</label>
+		        <input type="checkbox" name="BEI" id="BEI" data-name="beeld en installatie" data-mini="true" />
+		        <label for="BEI" style="font-style: italic">beeld en installatie</label>
+                                                    <input type="checkbox" name="MEK" id="MEK" data-name="mediakunst" data-mini="true" />
+		        <label for="MEK" style="font-style: italic">mediakunst</label>
+                                            </div>
+                                            <input type="checkbox" name="FOT" id="FOT" data-name="fotografie"  data-mini="true" />
+		<label for="FOT">fotografie</label>
+                                            <input type="checkbox" name="MMV" id="MMV" data-name="multimediale vormgeving"  data-mini="true" />
+		<label for="MMV">multimediale vormgeving</label> 
+		<input type="checkbox" name="GRO" id="GRO" data-name="grafisch ontwerp"  data-mini="true" />
+		<label for="GRO">grafisch ontwerp</label>
+                                             <div id="GROkeuzes" style="padding: 0px 0px 0px 15px;display: none;" >			
+                                                    <input type="checkbox" name="GRA" id="GRA" data-name="grafiek" data-mini="true" />
+		       <label for="GRA" style="font-style: italic">grafiek</label>
+		       <input type="checkbox" name="GRV" id="GRV" data-name="grafische vormgeving" data-mini="true" />
+		       <label for="GRV" style="font-style: italic">grafische vormgeving</label>
+                                                   <input type="checkbox" name="WID" id="WID" data-name="web- en interactief design" data-mini="true" />
+		       <label for="WID" style="font-style: italic">web- en interactief design</label>
+		       <input type="checkbox" name="ILL" id="ILL" data-name="illustratie" data-mini="true" />
+		       <label for="ILL" style="font-style: italic">illustratie</label>         
+                                            </div>
+                                            <input type="checkbox" name="TEO" id="TEO" data-name="textielontwerp"  data-mini="true" />
+		<label for="TEO">textielontwerp</label>
+                                            <input type="checkbox" name="MOD" id="MOD" data-name="mode"  data-mini="true" />
+		<label for="MOD">mode</label>
+                               </div>                                                                                                                                                              
+                        </div>
+                     </div>	
+                </div>
+                <div data-role="footer" data-position="fixed" >
+                    <div class="footer">
+                        <img src="images/HS.png" onclick="location.assign('#startPage');"/>
+                        <img src="images/write.png" onclick="location.assign('#regPage');"/>
+                        <img src="images/refresh.png" 
+                             onclick="$('#pageSOA :checkbox').attr('checked',false).checkboxradio('refresh');$('#UMUkeuzes').hide();$('#SMUkeuzes').hide();$('#VRKkeuzes').hide();$('#GROkeuzes').hide();" />
+                    </div>
+                </div>
+            </div>
+        
+            <div id="regPage" data-role="page" data-theme="a" >
+                <div data-role="popup" id="message" class="ui-content" style="width:100%">
+	<a href="#" data-rel="back" data-role="button" data-theme="d" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>                      
+                      <h3 id="contentpopup"></h3>
+                </div>
+                <div class="header">HoGent</div>
+                <div data-role="fieldcontain" class="gec">                    
+                            <label for="fname">Voornaam:</label>
+                            <input type="text" name="txtFirstName" data-mini="true" id="fname"  value="" placeholder="Voornaam" />                    
+                             <label for="name">Naam:</label>
+                             <input type="text" name="txtLastName" data-mini="true" id="name" value="" placeholder="Naam"/>
+                             <label for="email">E-mail:</label>
+                              <input type="email" name="txtEmail" data-mini="true" id="email" value="" placeholder="E-mail"/>
+                              <label for="straat">Straat+nr:</label>
+                              <input type="text" name="txtStraat" data-mini="true" id="straat" value="" placeholder="Straat+nr"/>
+                              <label for="pc">Postcode:</label>
+                               <input type="text" name="txtPC" data-mini="true" id="pc" value="" placeholder="Postcode"/>
+                               <label for="gemeente">Gemeente:</label>
+                               <input type="text" name="txtGemeente" data-mini="true" id="gemeente" value="" placeholder="Gemeente"/>
+                </div>
+                <div class="gec akkoord">
+                    <img id="loadingPU" src="images/ajax-loader.gif" style="width:25px;display: none;" /> 
+                    <!--p class="akkoord" >Velden met (*) zijn verplicht.</p-->                    
+                    <p class="akkoord" >Ik ga ermee akkoord dat mijn gegevens worden verwerkt voor intern gebruik
+                                            en ik ga er ook mee akkoord dat de HoGent contact met mij opneemt
+                                            en mij informeert over activiteiten en opleidingen.</p>
+                    <div style="margin-top: 40px;">
+                        <span class="button" id="terug" onclick="history.go(-1);location.refresh();">Terug</span>
+                        <span class="button" id="btnRegistreer" >Registreren</span>
+                    </div>
+                </div>                        
+            </div>
+            <div id="overzicht" data-role="page" data-theme="a">
+                
+                     <div data-role="content">
+                         <table data-role="table" class="ui-table table-stroke" style="font-size: 65%">
+                                            <thead>
+                                              <tr>
+                                                <th></th>                                                  
+                                                <th width="15%">Faculteit</th>
+                                                <th width="25%">Opleiding(en)</th>
+                                                <th width="35%">Keuze(s)</th>
+                                                <th width="15%">Naam</th>
+                                                <th width="10%">E-mail</th>                                                
+                                              </tr>
+                                            </thead>
+                                            <tbody id="overview_table" >
+
+                                            </tbody>
+                            </table>
+                                
+			</div>
+                <div data-role="footer" data-position="fixed" style="height:5%" >
+                    <div class="footer">
+                        <img src="images/HS.png" onclick="location.assign('#startPage');" style="width:25px"/>                        
+                        <img id="loading" src="images/refresh.png" onclick="location.reload();" style="width:25px" />
+                        <!--img id="loading" src="images/ajax-loader.gif" style="position:relative;left:-153px;z-index:100;display:none;" /-->
+                    </div>
+                </div>
+             </div>
+        </body>
+</html>
